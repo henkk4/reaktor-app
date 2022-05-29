@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background: #00a170;
+}
+
+h3 {
+  text-align: center;
+}
+
+ol#package-list {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 5px;
+  background: #00a170;
+  padding: 20px;
+}
+
+ol li {
+  background: #a0daa9;
+  padding: 5px;
+  margin-left: 35px;
+  border-bottom-style: dotted;
+}
+
+.Package {
+  width: 50%;
+  margin: 0 auto;
+  background: #a0daa9;
+}
+
+#label {
+  float: left;
+  font-weight: bold;
+}
+
+#feature{
+  border: outset black;
+  text-align: right;
+  padding: 5px;
+}
+
+
